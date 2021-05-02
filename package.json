@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -19,9 +18,10 @@
   },
   "homepage": "https://github.com/pro-grepper-org/pro-grepper-extension#readme",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "webpack": "^5.36.2"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "webpack-cli": "^4.6.0"
   }
 }

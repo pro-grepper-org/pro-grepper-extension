@@ -1,5 +1,5 @@
-1. Run npm install 
+1. Go to chrome extensions
 
-2. After making changes, run npm dev
+2. Select load unpacked and select this folder
 
-3. Deploy the extension and test
+3. There you go!!
